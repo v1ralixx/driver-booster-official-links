@@ -1,0 +1,10 @@
+# Do not publish installers or executables from this folder.
+*.exe
+*.msi
+*.dll
+*.scr
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
